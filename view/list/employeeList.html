@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Thu vien-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--base css-->
+    <link rel="stylesheet" href="../../css/base/common.css" />
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="employee-list">
+        <div class="the-menu">
+            <div class="header">
+                <div class="toggle" id="btnToggle"></div>
+                <div class="logo"></div>
+            </div>
+            <div class="menu">
+                <div class="dash-board">
+                    <div class="icon"></div>
+                    <div class="text">Tổng quan</div>
+                </div>
+                <div class="dash-board">
+                    <div class="icon"></div>
+                    <div class="text">Tổng quan</div>
+                </div>
+                <div class="dash-board">
+                    <div class="icon"></div>
+                    <div class="text">Tổng quan</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="the-rigth">
+            <div class="the-header">
+                <div class="btn-combobox">
+                    <div class="header">
+                        <button class="btn-green-save icon-save">Lưu và thêm mới</button>
+                        <button class="icon-up btn-green-up" id="btnGreenUp" style="display: none;"></button>
+                        <button class="icon-down btn-green-down" id="btnGreenDown"></button>    
+                    </div>
+                    <div class="content" id="content" style="display: none;">
+
+                    </div>
+                </div>
+                <button class="btn-green" id="btnAdd">Thêm</button>
+            </div>
+            <div class="the-content">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- form them -->
+    <div class="employee-detail" id="employeeDetail">
+        <div class="content"><div class="icon-X" id="btnX"></div></div>
+    </div>
+
+    <!-- thư viện -->
+    <script src="/lib/jquery/jquery-3.7.1.min.js"></script>
+
+    <!-- file js -->
+    <script src="/js/list/employeeList.js"></script>
+</body>
+
+</html>

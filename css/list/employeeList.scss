@@ -1,0 +1,101 @@
+.employee-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .the-menu {
+        height: 100%;
+        width: 267px;
+
+        .header {
+            height: 48px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            .toggle {
+                height: 24px;
+                width: 24px;
+                margin-left: 16px;
+                background-image: url(/image/employeeList/toggle.png);
+                background-repeat: no-repeat;
+                background-size: 24px;
+                cursor: pointer;
+            }
+
+            .logo {
+                margin-left: 10px;
+                height: 24px;
+                width: 100px;
+                background-image: url(/image/employeeList/cukcuk-logo.png);
+                background-repeat: no-repeat;
+                background-size: 100px 24px;
+                cursor: pointer;
+            }
+        }
+
+        .menu {
+            height: calc(100% - 48px);
+            width: 100%;
+
+            .dash-board {
+                width: 100%;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                .icon {
+                    height: 24px;
+                    width: 24px;
+                    margin-left: 16px;
+                    background-image: url(/image/employeeList/dashboard.png);
+                    background-repeat: no-repeat;
+                    background-size: 24px;
+                    cursor: pointer;
+                }
+
+                .text{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .the-rigth {
+        height: 100%;
+        width: calc(100% - 267px);
+
+        .the-header {
+            height: 48px;
+            width: 100%;
+            background-color: rgb(145, 132, 117);
+        }
+
+        .the-content {
+            width: 100%;
+            height: calc(100% - 48px);
+            background-color: blueviolet;
+        }
+    }
+
+}
+
+
+
+.employee-detail{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+        height: 80%;
+        width: 500px;
+        background-color: #fff;
+        opacity: 1 !important;
+    }
+}

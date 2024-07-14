@@ -1,0 +1,38 @@
+@import url(./button.css);
+
+@import url(./input.css);
+
+@import url(./toastMessenger.css);
+
+@import url(./table.css);
+
+
+@import url(../list/employeeList.css);
+
+@font-face {
+    font-family: Roboto;
+    src: url(/lib/font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlackItalic;
+    src: url(/lib/font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(/lib/font/Roboto-Bold.ttf);
+}
+
+body{
+    font-family: Roboto;
+    font-size: 13px;
+    margin: 0 !important;
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    font-family: Roboto;
+    cursor: pointer;
+}
